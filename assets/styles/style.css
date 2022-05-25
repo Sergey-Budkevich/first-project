@@ -1,0 +1,18 @@
+@import url("header.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 1510px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+
+
+
