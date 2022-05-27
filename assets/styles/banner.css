@@ -1,6 +1,5 @@
 .banner {
-    max-width: inherit;
-    width: inherit;
+    width: 100%;
     min-height: 100vh;
     padding: 208px 0 183px ;
     background-image: url("../images/backgroud__image_banner.png");
@@ -13,8 +12,7 @@
 
 .banner::after {
     content: "";
-    max-width: inherit;
-    width: inherit;
+    width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
@@ -24,8 +22,6 @@
 }
 
 .banner__content {
-    
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -38,9 +34,7 @@
 }
 
 .banner__info_logo {
-    max-width: 270px;
-    width: 100%;
-    padding: 22px 0 22px;
+    margin: 22px 0 0;
 }
 
 .banner__info_title {
@@ -50,7 +44,7 @@
     line-height: 56px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 50px 0 0;
+    margin: 72px 0 0;
 }
 
 .banner__info_line {
@@ -71,10 +65,12 @@
 }
 
 .banner__info_download {
-    max-width: 270px;
-    width: 100%;
+    width: 270px;
     height: 58px;
+    display: inline-block;
     margin: 42px 0 0;
+    padding: 16px 0 ;
+    text-decoration: none;
     border: 2px solid #FFFFFF;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -86,18 +82,15 @@
 }
 
 .banner__form {
-    max-height: 450px;
     max-width: 470px;
+    max-height: 450px;
     width: 100%;
     background-color: #FFFFFF;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 29px 0 0;
-    position: relative;
-    
-    
+    padding: 33px 0 0;
 }
 
 .banner__form_title {
@@ -110,7 +103,7 @@
     color: #333333;
 }
 
-.banner__form_title strong {
+.banner__form_title>span {
     color: #EC7979;
     text-transform: uppercase;
 }
@@ -123,11 +116,14 @@
     border: none;
     border-bottom: 1px solid #BDBDBD; 
     margin: 33px 0 0;
-    opacity: 0.5;
 }
 
 .banner__form_item:first-of-type {
-    margin: 64px 0 0;
+    margin: 68px 0 0;
+}
+
+.banner__form_item::placeholder {
+    opacity: 0.5;
 }
 
 .bunner__form_btn {
@@ -141,11 +137,8 @@
     border-radius: 0px 0px 10px 10px;
     border: none;
     color: #FFFFFF;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    margin: 76px 0 0;
 }
-
 
 
 
