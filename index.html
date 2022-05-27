@@ -9,18 +9,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <header class="header">
-            <div class="header__wpapper">
-                <div class="header__logo">
-                <svg width="88" height="32" viewBox="0 0 88 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <header class="header">
+            <div class="content header__content">
+                <svg class="header__logo" width="88" height="32" viewBox="0 0 88 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M10.6011 0.456055H16.1137L26.3906 31.1461H20.7993L18.2006 23.4952H8.43549L5.87609 31.1461H0.28479L10.6011 0.456055ZM17.2162 19.3023L13.3574 6.63729L9.34112 19.3023H17.2162Z" fill="white"/>
 <path d="M32.3708 0.456055L39.3008 11.7811L46.1915 0.456055H52.0978L42.4115 16.0172L51.7828 31.1461H45.8765L39.3008 20.2533L32.6858 31.1461H26.7401L36.1114 16.0172L26.4251 0.456055H32.3708Z" fill="white"/>
 <path d="M54.9126 31.1461V0.456055H60.3464V31.1461H54.9126Z" fill="#EC7979"/>
 <path d="M87.0875 5.68633H78.1493V31.1461H72.7549V5.68633H63.8167V0.456055H87.0875V5.68633Z" fill="#EC7979"/>
 </svg>
-                </div>
-                <nav class="header__nav">
+                <nav class="header__navigation">
                 <a href="" class="header__nav_link">Features</a>
                 <a href="#" class="header__nav_link">About</a>
                 <a href="#" class="header__nav_link">Pricing</a>
@@ -29,8 +26,9 @@
                 </nav>
             </div>
         </header>
+    <main>
         <section class="banner">
-            <div class="banner__content">
+            <div class="banner__content content"> 
                 <article class="banner__info">
                     <div class="banner__info_logo">
                         <svg width="170" height="55" viewBox="0 0 170 55" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +54,7 @@
                 
         </section>
         <section class="tabs">
-        <div class="tabs__content">
+        <div class="tabs__content content">
             <div class="tabs__switcher">
                 <button class="tabs__switcher_btn switcher_btn" type="button">tab 1</button>
                 <button class="tabs__switcher_btn" type="button">tab 2</button>
@@ -80,14 +78,16 @@ bibendum laoreet.</p>
         </div>
     </section>
         <section class="design">
-            <div class="design__content">
+            <div class="design__content content">
                 <h2 class="design__title">STYLISH AXURE DESIGN</h2>
                 <div class="design__line"></div>
                 <p class="design__info">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
                 <button class="design__btn">Download</button>
             </div>
         </section>
-        <footer class="footer">
+    </main>    
+    <footer class="footer">
+        <div class="content">
             <div class="footer__icon_panel">
                 <a href="#">
                 <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -121,7 +121,7 @@ bibendum laoreet.</p>
 </a>
             </div>
             <p class="footer__copyright">© 2015 Axure Themes</p>
-        </footer>
-    </main>
+        </div>
+    </footer>
 </body>
 </html>

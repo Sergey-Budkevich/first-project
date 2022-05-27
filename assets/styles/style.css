@@ -9,12 +9,18 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-main {
+body {
     max-width: 1510px;
     width: 100%;
     margin: 0 auto;
     background-color: #ffffff;
+}
+
+.content   {
+    max-width: calc(1170px + 15px * 2);
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 

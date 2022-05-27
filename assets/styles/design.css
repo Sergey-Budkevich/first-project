@@ -22,10 +22,6 @@
 }
 
 .design__content {
-    max-width: calc(1170px + 15px * 2);
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
     position: relative;
     z-index: 1;
 }

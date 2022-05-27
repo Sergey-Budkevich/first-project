@@ -3,37 +3,27 @@
     height: 75px;
     position: sticky;
     top: 0;
+    left: 0;
     background-color: #000000;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     z-index: 5;
 }
 
-.header__wpapper {
+.header__content {
+    height: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-
-
 .header__logo {
-    max-width: 183px;
-    width: 100%;
-    position: absolute;
-    left: 115px;
+    position: relative;
+    left: -55px;
     top: 22px;
 }
 
-.header__nav {
-    max-width: 570px;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    right: 170px;
-    top:0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.header__navigation {
+    align-self: center;
 }
 
 .header__nav_link {
@@ -41,11 +31,9 @@
     color: #FFFFFF;
     font-size: 14px;
     line-height: 19px;
+    margin: 0 55px 0 0 ;
 }
 
-
-
-    
 
 
 

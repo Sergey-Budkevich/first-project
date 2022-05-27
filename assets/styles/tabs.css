@@ -2,13 +2,6 @@
     padding: 100px 0 50px;
     background-color: #ffffff;
     width: 100%;
-    min-height: 100vh;
-}
-
-.tabs__content {
-    max-width: calc(1170px + 15px * 2);
-    width: 100%;
-    margin: 0 auto;
 }
 
 .tabs__switcher {
