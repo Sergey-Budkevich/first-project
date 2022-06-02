@@ -2,6 +2,10 @@
     padding: 104px 0 58px;
 }
 
+.awesome__line {
+    margin: 54px auto 0;
+}
+
 .awesome__info {
     color: #86878B;
     margin: 40px 0 0;

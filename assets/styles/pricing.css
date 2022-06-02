@@ -1,0 +1,118 @@
+.pricing  {
+    padding: 114px 0 50px;
+    background-color: #F5F5F5;
+}
+.pricing__line {
+    margin: 64px auto 0;
+}
+
+.pricing__info {
+    color: #86878B;
+    margin: 40px 0 0;
+}
+
+.pricing__cards {
+    width: 100%;
+    margin: 60px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing__card {
+    position: relative;
+    top: 20px;
+    left: 0;
+    max-width: 370px;
+    width: 100%;
+}
+
+.pricing__card:hover {
+    transition-duration: 0.5s;
+    position: relative;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
+    max-width: 370px;
+    width: 100%;
+}
+
+.pricing__card-subtitle {
+    padding: 13px 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #333333;
+    border: 2px solid #F5F5F5; 
+    border-bottom: none;
+}
+
+.pricing__card-title {
+    padding: 28px 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    border-bottom: none;
+}
+
+.pricing__card-text {
+    padding: 14px 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    background: #333333;
+    border: 2px solid #F5F5F5;
+}
+
+.pricing__card-info {
+    list-style: none;
+    padding: 14px 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #86878B;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    border-top: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
