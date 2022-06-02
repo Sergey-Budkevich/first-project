@@ -1,6 +1,6 @@
 .design {
     width: 100%;
-    padding: 50px 0;
+    padding: 104px 0 50px;
     background-image: url("../images/background_image_design.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,20 +22,12 @@
 }
 
 .design__content {
-    padding: 54px 0 0 !important;
     position: relative;
     z-index: 1;
 }
 
 .design__title {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    position: static;
+    color: #FFFFFF !important;
 }
 
 .design__line {
@@ -46,11 +38,6 @@
 }
 
 .design__info {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
     color: #FFFFFF;
     margin: 40px 0 0;
 }
