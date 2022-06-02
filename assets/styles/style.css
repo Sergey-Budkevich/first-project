@@ -1,5 +1,6 @@
 @import url("header.css");
 @import url("banner.css");
+@import url("social.css");
 @import url("tabs.css");
 @import url("awesome.css");
 @import url("pricing.css");
@@ -13,8 +14,6 @@
     box-sizing: border-box;
 }
 body {
-    max-width: 1510px;
-    width: 100%;
     margin: 0 auto;
     background-color: #ffffff;
 }
@@ -33,13 +32,11 @@ body {
     line-height: 42px;
     text-align: center;
     text-transform: uppercase;
-    color: #000000;
 }
 
 .line {
     width: 170px;
     height: 1px;
-    background-color: #EC7979;
 }
 
 .info {

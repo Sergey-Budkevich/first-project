@@ -2,8 +2,13 @@
     padding: 114px 0 50px;
     background-color: #F5F5F5;
 }
+.pricing__title {
+    color: #000000;
+}
+
 .pricing__line {
     margin: 64px auto 0;
+    background-color: #EC7979;
 }
 
 .pricing__info {
