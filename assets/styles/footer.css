@@ -5,7 +5,7 @@
     padding: 35px 0 27px;
 }
 
-.footer__icon_panel {
+.footer__icon-panel {
     max-width: 570px;
     width: 100%;
     margin: 0 auto;
@@ -23,6 +23,36 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
+@media (max-width:1024px) {
+    .footer {
+        padding: 35px 0 30px;
+    }
+    .footer__icon_panel {
+        max-width: 484px;
+    }
+    .footer__link-icon {
+        width: 45px;
+        height: 45px;
+    }
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 16px;
+        margin: 35px 0 0;
+    }
+}
+
+@media (max-width:767px) {
+    .footer {
+        padding: 35px 0 45px;
+    }
+    .footer__link-icon {
+        height: 26px;
+        width: 26px;
+    }
+    .footer__copyright {
+        margin: 42px 0 0;
+    }
+}
 
 
 
