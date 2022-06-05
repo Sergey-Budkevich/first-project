@@ -186,6 +186,7 @@
 
     .banner__form {
         max-width: 398px;
+        position: relative;
     }
 
     .banner__form-title {
@@ -196,6 +197,11 @@
 
     .banner__form-item {
         max-width: 298px;
+    }
+    .bunner__form-btn {
+        position: absolute;
+        bottom: 0;
+        left: 0;
     }
 }
 
