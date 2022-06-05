@@ -12,7 +12,6 @@
 }
 
 .customers__info {
-    margin: 40px auto 0;
     color: #86878B;
 }
 
@@ -25,6 +24,10 @@
 .customers__coment-wrapper {
     max-width: 370px;
     width: 100%;
+}
+
+.customers__coment-wrapper:not(:last-of-type){
+    margin: 0 30px 0 0;
 }
 
 .customers__coment {
@@ -68,7 +71,7 @@
     font-size: 24px;
     line-height: 33px;
     text-transform: capitalize;
-    color: #000000
+    color: #000000;
 }
 
 .customers__author-position {
@@ -79,4 +82,89 @@
     line-height: 21px;
     color: #000000;
 }
+.customers__slider {
+    display: none;
+}
+
+@media (max-width:1024px) {
+    .customers {
+        padding: 96px 0 60px;
+    }
+    .customers__coments {
+        margin: 32px 0 0;
+    }
+    .customers__coment-wrapper {
+        max-width: 317px;
+    }
+    .customers__coment-wrapper:not(:last-of-type){
+    margin: 0 20px 0 0;
+    }
+    .customers__coment {
+        padding: 50px 15px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .customers__coment::after {
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+    }
+    .customers__author-images {
+        width: 63px;
+        height: 63px;
+        margin: 0 22px 0 0;
+    }
+    .customers__author-name {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 6px 0;
+    }
+    .customers__author-position {
+        font-size: 14px;
+        line-height: 16px;    
+        margin: 9px 0 0;
+    }
+}
+
+@media (max-width:767px) {
+    .customers {
+        padding: 46px 0 31px;
+    }
+    .customers__content {
+        overflow: hidden;
+    }
+    .customers__coments {
+        width: calc(300% + 16px * 2);
+        margin: 24px 0 0;
+        position: relative;
+        top: 0;
+        right:100%;
+        transform: translateX(-16px);
+    }
+    .customers__coment-wrapper {
+        max-width: 288px;
+    }
+   
+    .customers__coment-wrapper:not(:last-of-type) {
+        margin: 0;
+    }
+    .customers__slider {
+        display: inline-block;
+        margin: 32px auto 0;
+        position: relative;
+        left: 50%;
+        top: 0;
+        transform:translateX(-50%);
+    }
+    .customers__slider-images:nth-of-type(2) {
+        margin: 0 50px;
+    }
+}
+
+
+
+
+
+
+
+
 

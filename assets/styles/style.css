@@ -1,5 +1,6 @@
 @import url("header.css");
 @import url("banner.css");
+@import url("social.css");
 @import url("tabs.css");
 @import url("awesome.css");
 @import url("pricing.css");
@@ -34,13 +35,11 @@ body {
     line-height: 42px;
     text-align: center;
     text-transform: uppercase;
-    color: #000000;
 }
 
 .line {
     width: 170px;
     height: 1px;
-    background-color: #EC7979;
 }
 
 .info {
@@ -49,4 +48,53 @@ body {
     font-size: 18px;
     line-height: 21px;  
     text-align: center;
+    margin: 40px 0 0;
 }
+
+@media (max-width:1024px) {
+    .content {
+        max-width: calc(992px + 16px * 2);
+        padding: 0 16px;
+    }
+    .title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .line {
+        width: 142px;
+        margin:46px auto 0;
+    }
+    .info {
+        font-size: 14px;
+        line-height: 16px;
+        margin: 32px 0 0;
+    }
+}
+
+@media  (max-width:767px) {
+   .content {
+        max-width: calc(288px + 16px * 2) ;
+        padding: 0 16px;
+    }
+    .line {
+        width: 134px;
+    }
+    .title {
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .info {
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        margin: 25px  0 0;
+    }
+}
+
+
+
+
+
+
+

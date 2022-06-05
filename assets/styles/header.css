@@ -14,25 +14,37 @@
     height: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.header__logo {
-    position: relative;
-    left: -55px;
-    top: 22px;
-}
-
-.header__navigation {
-    align-self: center;
-}
-
-.header__nav_link {
+.header__nav-link {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 14px;
     line-height: 19px;
     margin: 0 55px 0 0 ;
 }
+
+.header__menu-burger {
+    display: none;
+}
+
+@media (max-width:767px){
+    .header {
+        height: 56px;
+    }
+    .header__logo{
+    width: 42px;
+    height: 22px;
+    }
+    .header__nav-link {
+        display: none;
+    }
+    .header__menu-burger {
+        display: inline-block;
+    }
+}
+
 
 
 

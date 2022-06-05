@@ -1,13 +1,13 @@
 .banner {
     width: 100%;
     min-height: 100vh;
-    padding: 208px 0 183px ;
+    padding: 208px 0 183px;
     background-image: url("../images/backgroud__image_banner.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    
+
 }
 
 .banner::after {
@@ -30,10 +30,10 @@
 
 .banner__info {
     max-width: 670px;
-    
+    margin: 0 30px 0 0;
 }
 
-.banner__info_logo {
+.banner__info-logo {
     margin: 22px 0 0;
 }
 
@@ -47,14 +47,12 @@
     margin: 72px 0 0;
 }
 
-.banner__info_line {
-    width: 170px;
-    height: 1px;
+.banner__info-line {
     margin: 55px 0 0;
     background-color: #ffffff;
 }
 
-.banner__info_description {
+.banner__info-description {
     max-width: 270px;
     margin: 42px 0 0;
     font-family: 'Raleway', sans-serif;
@@ -64,12 +62,12 @@
     color: #ffffff;
 }
 
-.banner__info_download {
+.banner__info-download {
     width: 270px;
     height: 58px;
     display: inline-block;
     margin: 42px 0 0;
-    padding: 16px 0 ;
+    padding: 16px 0;
     text-decoration: none;
     border: 2px solid #FFFFFF;
     font-family: 'Open Sans', sans-serif;
@@ -87,13 +85,11 @@
     width: 100%;
     background-color: #FFFFFF;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 33px 0 0;
+
 }
 
-.banner__form_title {
+.banner__form-title {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 24px;
@@ -103,25 +99,30 @@
     color: #333333;
 }
 
-.banner__form_title>span {
+.banner__form-title > span {
     color: #EC7979;
     text-transform: uppercase;
 }
 
-.banner__form_item {
+.banner__form-items {
+    width: 100%;
+    margin: 35px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.banner__form-item {
     max-width: 370px;
     height: 38px;
     width: 100%;
     border: none;
-    border-bottom: 1px solid #BDBDBD; 
+    border-bottom: 1px solid #BDBDBD;
     margin: 33px 0 0;
 }
 
-.banner__form_item:first-of-type {
-    margin: 68px 0 0;
-}
-
-.banner__form_item::placeholder {
+.banner__form-item::placeholder {
     color: #BDBDBD;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -129,7 +130,7 @@
     line-height: 19px;
 }
 
-.bunner__form_btn {
+.bunner__form-btn {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 15px;
@@ -144,8 +145,124 @@
 }
 
 
+@media (max-width:1024px) {
+    .banner {
+        padding: 136px 0 106px;
+    }
 
+    .banner__info {
+        max-width: 454px;
+        margin: 0 36px 0 0;
+    }
 
+    .banner__title {
+        margin: 54px 0 0;
+        font-size: 36px;
+        line-height: 42px;
+        text-transform: uppercase;
+    }
+
+    .banner__info-logo {
+        width: 111px;
+        height: 41px;
+    }
+
+    .banner__info > .banner__info-line {
+        width: 115px;
+        margin: 41px 0 0;
+    }
+
+    .banner__info-description {
+        max-width: 183px;
+        margin: 31px 0 0;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .banner__info-download {
+        width: 183px;
+        margin: 31px 0 0;
+    }
+
+    .banner__form {
+        max-width: 398px;
+    }
+
+    .banner__form-title {
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: uppercase;
+    }
+
+    .banner__form-item {
+        max-width: 298px;
+    }
+}
+
+@media (max-width:767px) {
+    .banner {
+        padding: 84px 0 50px;
+    }
+
+    .banner__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner__info {
+        margin: 0;
+    }
+
+    .banner__info-logo {
+        display: none;
+    }
+
+    .banner__title {
+        margin: 0;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+    }
+
+    .banner__info>.banner__info-line {
+        margin: 43px auto 0;
+    }
+
+    .banner__info-description {
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        margin: 42px auto 0;
+    }
+
+    .banner__info-download {
+        width: 100%;
+        margin: 42px 0 0;
+    }
+
+    .banner__form {
+        width: 100%;
+        margin: 56px 0 0;
+        padding: 35px 0 0;
+    }
+    .banner__form-title {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .banner__form-items {
+        padding: 0 24px;
+        margin: 0;
+    }
+    .banner__form-item:not(:first-of-type) {
+        margin: 33px 0 0;
+    }
+    .banner__form-item:first-of-type {
+        margin: 35px 0  0;
+    }
+    .bunner__form-btn {
+        margin: 51px 0 0;
+    }
+}
 
 
 

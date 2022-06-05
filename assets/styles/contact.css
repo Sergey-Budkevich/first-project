@@ -2,36 +2,44 @@
     padding: 104px 0 50px;
 }
 
+.contact__title{
+    color: #000000;
+}
+
 .contact__line {
     margin: 54px auto 0;
+    background-color: #EC7979;
 }
 
 .contact__info {
     color: #86878B;
-    margin:40px 0 0;
 }
 
 .contact__form {
     width: 100%;
     margin: 89px 0 0;
 }
-.contact__form__inner {
+.contact__form-inner {
     display: flex;
+    align-items: stretch;
 }
 
-.contact__form__info {
+.contact__form-info {
     max-width: 569px;
     width: 100%;
     margin: 0 30px 0 0;
 }
-.contact__form__info_item {
+.contact__form-input {
     width: 100%;
     height: 35px;
-    margin: 50px 0 0 ;
     border: none;
     border-bottom: 1px solid #BDBDBD; 
 }
-.contact__form__info_item::placeholder {
+.contact__form-input:not(:first-of-type) {
+    margin: 50px 0 0 ;
+}
+
+.contact__form-input::placeholder {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -39,11 +47,7 @@
     color: #BDBDBD;
 }
 
-.contact__form__info_item:first-of-type {
-    margin: 0;
-}
-
-.contact__form__inner>textarea {
+.contact__form-textarea {
     max-width: 569px;
     width: 100%;
     border: none;
@@ -51,15 +55,15 @@
     resize: none;
 }
 
-.contact__form__inner>textarea::placeholder {
-     font-family: 'Open Sans', sans-serif;
+.contact__form-textarea::placeholder {
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     color: #BDBDBD;
 }
 
-.contact__form__btn {
+.contact__form-btn {
     width: 370px;
     height: 58px;
     background-color: #EC7979;
@@ -75,5 +79,53 @@
     top: 0;
     transform: translate(-50%,0);
 }
+
+@media (max-width:1024px) {
+    .contact {
+        padding: 96px 0 50px;
+    }
+    .contact__form {
+        margin: 72px 0 0;
+    }
+    .contact__form-info {
+        max-width: 486px;
+        margin: 0 20px 0 0;
+    }
+    .contact__form-textarea {
+        max-width: 486px;
+    }
+    .contact__form-btn {
+        width: 318px
+    }
+}
+
+@media (max-width:767px) {
+    .contact__line {
+        margin: 46px auto 0;
+    }
+    .contact__form {
+        margin: 64px 0 0;
+    }
+    .contact__form-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact__form-textarea {
+        margin: 50px 0 0;
+        height: 185px;
+    }
+    .contact__form-info {
+        margin: 0;
+    }
+    .contact__form-btn {
+        width: 100%;
+    }
+}
+
+
+
+
+
 
 
